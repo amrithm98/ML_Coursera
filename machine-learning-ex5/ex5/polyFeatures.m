@@ -14,12 +14,11 @@ X_poly = zeros(numel(X), p);
 %               column of X contains the values of X to the p-th power.
 %
 % 
-
-
-
-
-
-
+temp=X;
+for i=2:p
+	temp=horzcat(temp,X.^i);
+endfor;
+X_poly=temp;
 % =========================================================================
 
 end
