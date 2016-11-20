@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "train <- read.csv(\"~/R/Titanic/train.csv\")\nView(train)\nlibrary(\"Amelia\", lib.loc=\"~/R/win-library/3.2\")\nsapply(train,function(x) sum(is.na(x)))\nmissmap(train, main = \"Missing values vs observed\")\ndata <- subset(train,select = c(2,3,5,6,7,8,10,12))\nfit <- lm(y ~ data$ + x2 + x3, data=mydata)\nfit",
+    "created" : 1479290072134.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "282904214",
+    "id" : "12A60E38",
+    "lastKnownWriteTime" : 7226435094589303907,
+    "last_content_update" : 1479290431566,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

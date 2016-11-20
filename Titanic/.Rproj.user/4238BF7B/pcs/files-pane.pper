@@ -1,0 +1,9 @@
+{
+    "path" : "~/R/Titanic",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
